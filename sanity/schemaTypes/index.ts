@@ -1,3 +1,4 @@
+import { attractionInfo } from "./attraction";
 import { cityType } from "./city";
 import { cityInfo } from "./cityInfo";
 import { countryType } from "./country";
@@ -9,5 +10,6 @@ export const schemaTypes = [
     countryType,
     countryInfo,
     cityType,
-    cityInfo
+    cityInfo,
+    attractionInfo,
 ]
